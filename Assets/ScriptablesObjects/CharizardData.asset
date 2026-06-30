@@ -16,14 +16,21 @@ MonoBehaviour:
   fighterName: Charizard
   attacks:
   - name: Lanza Llamas
-    aniamationName: AttackCha
-    miDamage: 50
+    animationName: Attack1
+    attackSoundName: charizar_attack1
+    minDamage: 0
     maxDamage: 80
     chargeParticles: {fileID: 3814013539709182634, guid: ca81133b13d11624ca86bee0196d00f4, type: 3}
     attackParticles: {fileID: 4227307072520061560, guid: 2550003113219cb4ab436748607cff57, type: 3}
   - name: Impact
-    aniamationName: AttackCha2
-    miDamage: 40
+    animationName: Attack2
+    attackSoundName: charizar_attack2
+    minDamage: 0
     maxDamage: 60
     chargeParticles: {fileID: 3814013539709182634, guid: ca81133b13d11624ca86bee0196d00f4, type: 3}
     attackParticles: {fileID: 4227307072520061560, guid: 2550003113219cb4ab436748607cff57, type: 3}
+  chargeTime: 2
+  appearParticles: {fileID: 4227307072520061560, guid: 2550003113219cb4ab436748607cff57, type: 3}
+  appearSoundName: charizar_appear
+  damageSoundName: charizar_damage
+  deadSoundNmae: charizar_dead

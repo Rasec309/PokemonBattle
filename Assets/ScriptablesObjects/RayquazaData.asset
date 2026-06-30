@@ -16,14 +16,21 @@ MonoBehaviour:
   fighterName: Rayquaza
   attacks:
   - name: "Tajo A\xE9reo"
-    aniamationName: AttackRay
-    miDamage: 50
+    animationName: Attack1
+    attackSoundName: rayquza_attack1
+    minDamage: 0
     maxDamage: 80
     chargeParticles: {fileID: 2142052412165249542, guid: 7d0572801980d65469dd9f30f2fb1a9d, type: 3}
     attackParticles: {fileID: 7446695826267288246, guid: b7e59d09c8b28644fa272efc0b1a5f58, type: 3}
   - name: Vasto Impacto
-    aniamationName: AttackRay2
-    miDamage: 40
+    animationName: Attack2
+    attackSoundName: rayquza_attack2
+    minDamage: 0
     maxDamage: 60
     chargeParticles: {fileID: 2142052412165249542, guid: 7d0572801980d65469dd9f30f2fb1a9d, type: 3}
     attackParticles: {fileID: 7446695826267288246, guid: b7e59d09c8b28644fa272efc0b1a5f58, type: 3}
+  chargeTime: 2
+  appearParticles: {fileID: 7446695826267288246, guid: b7e59d09c8b28644fa272efc0b1a5f58, type: 3}
+  appearSoundName: rayquza_appear
+  damageSoundName: rayquza_demage
+  deadSoundNmae: rayquza_dead
